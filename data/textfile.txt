@@ -1,0 +1,9 @@
+Benchmarking is a complex and, to a certain extent, controversial subject, certain to stimulate debate among interested parties, who are unlikely to reach any meaningful agreement on tools, approach, workloads or acceptable outcomes. Nevertheless, there is a general consensus that benchmarking is necessary.
+
+What follows is a general outline of benchmarking for the purpose of establishing the overall health of a Lustre file system and its supporting infrastructure. The methods are intended to exercise the infrastructure (stress testing) to identify faults and establish baseline performance, rather than to monitor it.
+
+The goal is to ensure that a system is running in accordance with specification, and defects have been identified and eliminated. These are requirements that are typical of acceptance criteria for delivery of a new system, or for ongoing reliability and performance testing as part of a service level agreement (SLA) or audit.
+
+Baseline measurements provide a reference for users against which to compare the performance or efficiency of their applications.
+
+Benchmarking will also highlight potential defects in the environment, for example if a result is lower than expected when compared to the established reference, or if no result is returned at all.
